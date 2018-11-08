@@ -11,12 +11,12 @@
 
 /** DEBUG and PRINT MACRO for extendablity*/
 #ifdef DEBUG
-#define DEBUG_PRINT(fmt, ...)    fprintf(stderr, fmt, ##__VA_ARGS__))
+#define DEBUG_PRINT(fmt, ...)    fprintf(stderr, fmt, ##__VA_ARGS__)
 #else
 #define DEBUG_PRINT(fmt, args...)
 #endif
 
-#define ERROR_PRINT(fmt,  ...)    fprintf(stderr, fmt, ##__VA_ARGS__))
+#define ERROR_PRINT(fmt,  ...)    fprintf(stderr, fmt, ##__VA_ARGS__)
 
 /** Boiler Plate Macros of NULL CHECK RETURN for code reuse and Reablity*/
 #define RETURN_IF_NULL(arg, msg)   do{ if((arg) == NULL) { \
