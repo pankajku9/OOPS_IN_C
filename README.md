@@ -1,2 +1,2 @@
-# OOPS_IN_C
-Basic Object Oriented Implementation In C
+# oops_in_c
+Basic Object Oriented Programmming Concept Implementation In C
